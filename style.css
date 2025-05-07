@@ -18,7 +18,7 @@
     color: var(--text-color);
   }
   
-  /* Header */
+ 
   header {
     position: fixed;
     top: 0;
@@ -59,7 +59,6 @@
     color: var(--accent-color);
   }
   
-  /* Main Content */
   main {
     margin-top: 80px;
     padding: 2rem 1rem;
@@ -110,7 +109,6 @@
     padding: 0 1rem; /* Previne quebra de linha em mobile */
   }
   
-  /* Cards */
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -140,7 +138,6 @@
     padding: 1.5rem;
   }
   
-  /* Curiosidades */
   .curiosity-list {
     list-style: none;
   }
@@ -153,16 +150,18 @@
     border-radius: 4px;
   }
   
-  /* Footer */
   footer {
     background: var(--primary-color);
     color: var(--light-color);
     text-align: center;
     padding: 1rem;
     margin-top: 3rem;
+
+  }
+  footer .official-links a {
+    color: var(--accent-color); /* Usa o azul acentuado do tema */
   }
   
-  /* Responsivo */
   @media (max-width: 768px) {
     .nav-links {
       gap: 1rem;
